@@ -1,0 +1,273 @@
+@media screen and (max-width: 1800px){
+
+.cta-main-content{
+    width: 100%;
+    padding-top: 5%;
+}
+}
+@media screen and (max-width: 1500px){
+
+
+.checkbox-box {
+    padding: 18px 39px 18px 51px;
+}
+.bottom-form{
+    width: 80%;
+}
+
+}
+
+@media screen and (max-width: 1380px){
+    .hero-content{
+        width: 100%;
+    }
+    .discover-contnet{
+        width: 100%;
+    }
+    .bottom-form{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1100px){
+    h1{
+        font-size: 70px!important;
+        line-height: 60px!important
+    }
+    h2{
+        font-size: 70px!important;
+        line-height: 60px!important
+    }
+}
+@media screen and (max-width: 993px){
+   .navbar-toggler-icon i{
+    color: #FFD601!important;
+   }
+   #mainNav{
+    background: #060A13;
+   }
+   .for-dektop{
+    display: 
+    none;
+   }
+   .for-mobile{
+	display: block;
+    }
+    .ms-auto.for-mobile{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .hero{
+        height: auto;
+    }
+    .hero-content{
+        padding-top: 20%;
+    }
+    .hero-map img{
+        top: 11%;
+    }
+    .service-content-width{
+        width: 90%;
+    }
+    .zip {
+    width: 48%;
+}
+.discover-contnet{
+    text-align: center;
+}
+.discover-contnet .gobal-btn{
+    text-align: center;
+}
+.cta-main-container img {
+    position: relative;
+    width: 50%;
+}
+.row.disrevese{
+    text-align: center;
+    display: flex!important;
+    flex-direction: column-reverse!important;
+}
+.row.disrevese .black-btn{
+    text-align: center;
+}
+.dis-img{
+    text-align: center;
+    margin-top: 50px;
+}
+.dis-img img {
+    width: 50%;
+}
+.interest-content h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.footer-bottom ul li {
+    margin-left: 54px;
+    position: relative;
+}
+
+}
+
+@media screen and (max-width: 600px){
+    .hero-content {
+        padding-top: 35%;
+    }
+    .hero-content{
+        width: 95%;
+    }
+     h1{
+        font-size: 50px!important;
+        line-height: 45px!important;
+    }
+    h2{
+        font-size: 50px!important;
+        line-height: 45px!important;
+    }
+    h4{
+        font-size: 35px!important;
+        line-height: 35px!important;
+    }
+    .hero-content ul{
+        margin: 30px 0;
+        flex-wrap: wrap;
+    }
+    .hero{
+        padding-bottom: 50px;
+    }
+    .marquee-cta{
+        padding-top: 10%;
+    }
+    .cta-help p{
+        font-size: 14px;
+    }
+    .crdw-help{
+        margin-top: -10px;
+        background: #060A13;
+    }
+    .built{
+        padding: 50px 0;
+        margin-top: -10px;
+    }
+    .service-container{
+        margin-top: 50px;
+    }
+    .service-box{
+        flex-direction: column;
+    }
+    .service-img{
+        width: 100%;
+    }
+    .service-content{
+        width: 100%;
+    }
+    .service-img img{
+        margin-bottom: 30px;
+    }
+    .service-content-width{
+        width: 100%;
+        text-align: center;
+    }
+    .black-btn {
+    text-align: center;
+    }
+    .black-btn a{
+        padding: 12px 40px;
+    }
+    .start-title{
+        text-align: center;
+        flex-direction: column;
+    }
+    .start-title img{
+        height: 40px;
+    }
+    .contact-form-container{
+        flex-wrap: wrap;
+    }
+    .contact-box{
+        width: 100%;
+    }
+    .contact-step{
+        margin: 0 auto;
+    }
+    .form-emoji-container{
+        flex-wrap: wrap;
+    }
+    .form-emoji{
+        width: 50%;
+        margin-top: -10px;
+    }
+    .form-emoji.bor{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .bor::before{
+        display: none;
+    }
+    .form-emoji-container .contact-step{
+        margin: 0 ;
+    }
+    .bottom-border{
+        margin: 30px 0;
+    }
+    .mar-60{
+        margin-top: 40px;
+    }
+    .earning-container {
+    width: 95%;
+    margin: 0 auto;
+}
+    .checkbox-box {
+        padding: 18px 21px 18px 49px;
+    }
+    .checkbox-crwd{
+        padding: 0;
+    }
+    .zip {
+        width: 100%;
+    }
+    .discover{
+        background: #060A13;
+        margin-top: -10px;
+    }
+    .dscover-container{
+        width: 95%;
+    }
+        .dis-img img {
+        width: 80%;
+    }
+    .client-logo {
+        margin-top: -10px;
+    }
+    .cta-main-container img{
+        width: 80%;
+    }
+    .footer-bottom{
+        flex-direction: column;
+    }
+    .footer-bottom ul{
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .footer-bottom ul li{
+        margin: 0 10px;
+        font-size: 12px;
+    }
+    .footer-copy{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer-copy ul{
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .footer-copy ul li{
+        margin: 0 10px;
+    }
+    .all-div{
+        overflow: hidden;
+    }
+
+}
