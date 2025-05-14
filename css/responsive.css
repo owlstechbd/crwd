@@ -269,5 +269,17 @@
     .all-div{
         overflow: hidden;
     }
+    .service-container{
+        height: auto;
+    }
+    .earning {
+        margin-top: -10px;
+    }
+    .center-titile p{
+        margin-bottom: 16px;
+    }
+    .main2{
+        width: 90%;
+    }
 
 }
