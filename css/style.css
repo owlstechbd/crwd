@@ -1015,3 +1015,6 @@ input[type="submit"]:hover{
   height: 30px;
   cursor: pointer;
 }
+.all-div{
+	overflow: hidden;
+}
