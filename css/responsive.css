@@ -37,6 +37,12 @@
         font-size: 70px!important;
         line-height: 60px!important
     }
+    .ball {
+    width: 61px;
+    position: absolute;
+    right: -18%;
+    top: -27%;
+    }
 }
 @media screen and (max-width: 993px){
    .navbar-toggler-icon i{
@@ -104,13 +110,24 @@
     margin-left: 54px;
     position: relative;
 }
-
+.wait-p{
+    width: 80%;
+}
 }
 
 @media screen and (max-width: 600px){
     .hero-content {
         padding-top: 35%;
     }
+    .ball {
+        width: 41px;
+        position: absolute;
+        right: -17%;
+        top: -20%;
+    }
+    .wait-p{
+    width: 100%;
+}
     .hero-content{
         width: 95%;
     }

@@ -21,6 +21,27 @@ document.querySelectorAll('.checkbox-box').forEach(box => {
   });
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    const openBtns = document.querySelectorAll(".open-popup");
+    const popup = document.getElementById("formPopup");
+    const closeBtn = popup.querySelector(".popup-close");
 
+    openBtns.forEach(btn => {
+      btn.addEventListener("click", () => {
+        popup.style.display = "flex";
+      });
+    });
+
+    closeBtn.addEventListener("click", () => {
+      popup.style.display = "none";
+    });
+
+    // Optional: close popup when clicking outside the form
+    popup.addEventListener("click", (e) => {
+      if (e.target === popup) {
+        popup.style.display = "none";
+      }
+    });
+  });
 //animated
 AOS.init();
