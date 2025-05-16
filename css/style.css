@@ -863,22 +863,38 @@ input[type="submit"]:hover{
 	position: relative;
 	height: 100%;
 }
-.cta-main-container img{
+.iphone img{
 	position: absolute;
-	height: 120%;
+	width: 100%;
 	left: 0;
 	bottom: 0;
 }
 .cta-main-content{
-	width: 70%;
-	padding-top: 16%;
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+.apple  {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.cta-main-content  img{
+	width: 50px;
+	margin: 20px;
 }
 .cta-main-content h1{
 	line-height: 88px;
 	color: #060A13;
 }
 .cta-main-content p{
-	margin: 30px 0 50px;
+	margin: 20px 0 30px;
+}
+.cta-main-content .black-btn{
+	text-align: center;
 }
 .interest{
 	width: 100%;
