@@ -852,22 +852,36 @@ input[type="submit"]:hover{
 .cta-main{
 	width: 100%;
 	background: #FFD601;
+	position: relative;
 	
 }
 .cta-main-container{
 	width: 80%;
 	margin: 0 auto;
+	position: relative;
+	
+}
+.yello-bg{
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	left: 0;
+	bottom: -70px;
+	z-index: 9999;
+	background:#060A13;
 }
 .iphone{
 	width: 100%;
 	position: relative;
 	height: 100%;
 }
+
 .iphone img{
 	position: absolute;
-	width: 100%;
+	width: 90%;
 	left: 0;
-	bottom: 0;
+	bottom: -40px;
+	
 }
 .cta-main-content{
 	width: 80%;

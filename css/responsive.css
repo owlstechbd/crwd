@@ -14,6 +14,9 @@
 .bottom-form{
     width: 80%;
 }
+.iphone img{
+    width: 100%;
+}
 
 }
 
@@ -26,6 +29,18 @@
     }
     .bottom-form{
         width: 100%;
+    }
+    .cta-main-container{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1250px){
+      .cta-main-container{
+        width: 95%;
+    }
+    .cta-main-content h1{
+        font-size: 76px;
+        line-height: 70px;
     }
 }
 @media screen and (max-width: 1100px){
@@ -83,14 +98,21 @@
 .discover-contnet .gobal-btn{
     text-align: center;
 }
-.cta-main-container img {
+.iphone img {
     position: relative;
-    width: 50%;
+    width: 20%;
+}
+.iphone img{
+    margin-bottom: 40px;
+}
+.cta-main-content{
+    padding: 0;
+    padding-top: 50px;
 }
 .row.disrevese{
     text-align: center;
     display: flex!important;
-    flex-direction: column-reverse!important;
+    
 }
 .row.disrevese .black-btn{
     text-align: center;
@@ -114,7 +136,12 @@
     width: 80%;
 }
 }
-
+@media screen and (max-width: 850px){
+.iphone img {
+        position: relative;
+        width: 20%;
+    }
+}
 @media screen and (max-width: 600px){
     .hero-content {
         padding-top: 35%;
@@ -254,12 +281,12 @@
     .client-logo {
         margin-top: -10px;
     }
-    .cta-main-container img{
-        width: 100%;
-        height: auto;
-    }
+    
     .footer-bottom{
         flex-direction: column;
+    }
+    .iphone img{
+        width: 70%;
     }
     .footer-bottom ul{
         flex-wrap: wrap;
