@@ -491,16 +491,14 @@ p{
 	margin: 0;
 	padding: 0;
 }
-.service-container{
-	margin-top: 100px;
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	
-	gap: 24px;
-
-	height: auto;
-	align-items: center;
+.service-container {
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: 2040px;
+    align-items: center;
 }
 .service-box{
 	width: 100%;
@@ -1014,7 +1012,4 @@ input[type="submit"]:hover{
   width: 30px;
   height: 30px;
   cursor: pointer;
-}
-.all-div{
-	overflow: hidden;
 }
