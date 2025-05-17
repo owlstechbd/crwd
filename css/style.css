@@ -497,7 +497,7 @@ p{
     display: flex;
     flex-direction: column;
     gap: 24px;
-    height: 2040px;
+   
     align-items: center;
 }
 .service-box{
